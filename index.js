@@ -10,7 +10,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 const plugin = {
   meta: {
     name: "@majaco/eslint-plugin-react",
-    version: "0.0.1",
+    version: "1.0.0",
   },
   configs: {
     recommended: [

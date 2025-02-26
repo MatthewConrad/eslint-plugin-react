@@ -1,15 +1,23 @@
 {
   "name": "@majaco/eslint-plugin-react",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Preferred set of linting rules for React TS projects.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint -c index.js 'index.js'",
+    "prettier": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MatthewConrad/eslint-plugin-react.git"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react"
+  ],
   "author": "Matthew Conrad",
   "license": "MIT",
   "bugs": {
